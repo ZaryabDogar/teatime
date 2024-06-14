@@ -1,0 +1,37 @@
+/* MySlider.css */
+
+.swiper-container {
+   
+    width: 80%; /* Default width */
+  }
+  
+  @media (max-width: 1600px) {
+    .swiper-container {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 1300px) {
+    .swiper-container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .swiper-container {
+      width: 89%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .swiper-container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .swiper-container {
+      width: 50%;
+    }
+  }
+  

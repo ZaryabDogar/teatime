@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.swiper-pagination-bullet {
+  width: 9px !important;
+  height: 9px !important;
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: linear-gradient(
+    11.95deg,
+    rgba(255, 61, 0, 0.88) 5.53%,
+    rgba(228, 41, 130, 0.85) 53.85%,
+    #5a189a 98.76%
+  ) !important;
+}
+
+.border-gradient {
+  /* Replace these values with your desired gradient */
+  border-image: linear-gradient(
+    90deg,
+    rgba(255, 61, 0, 0.88) -10.93%,
+    rgba(228, 41, 130, 0.85) 80.9%
+  );
+
+  border-image-slice: 1;
+  border-bottom: 1px solid;
+}
+
+/* width */
+.scrollbar::-webkit-scrollbar {
+  width: 1px;
+  display: none;
+}
+
